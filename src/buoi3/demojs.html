@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script>
+      //alert("Xin chào");
+      var a = 1;
+      var b = 2;
+      var c = a + b;
+      var string;
+      var array;
+
+      //alert(c);
+      console.log("Log: " + c);
+    </script>
+  </head>
+
+  <body>
+    <script>
+      document.write("Tong cua a va b la : " + c);
+
+      document.getElementById("myTextBox").value = "Gia tri text box";
+    </script>
+
+    <div>
+      <input type="text" id="myTextBox" />
+    </div>
+    <div>
+      <input type="button" id="myButton2" onclick="goiHam1();" value="C**2" />
+    </div>
+
+    <div>
+      <input
+        type="button"
+        id="myButton"
+        onclick="thayboder();"
+        value="đổi màu border textbox"
+      />
+    </div>
+
+    <script>
+      document.getElementById("myTextBox").value = c;
+
+      function goiHam1() {
+        document.getElementById("myTextBox").value = c ** 2;
+
+        //document.getElementByTagName
+      }
+
+      function thayboder() {
+        document.getElementById("myTextBox").style.color = "blue";
+
+        document.getElementById("myTextBox").style.borderColor = "red";
+      }
+    </script>
+
+    <br />
+    <hr />
+    <textarea>Nhập nội dung</textarea>
+    <br />
+    <input type="button" value="Tiếp tục" id="buttonTiepTuc" />
+    <div>
+      <input
+        type="checkbox"
+        id="myCheckbox"
+        name="mck"
+        onclick="kiemtracheck()"
+      />
+
+      <label for="scales">Tôi đồng ý điều khảon trên</label>
+    </div>
+
+    <script>
+      document.getElementById("buttonTiepTuc").disabled = true;
+
+      function kiemtracheck() {
+        if (document.getElementById("myCheckbox").checked == true) {
+          document.getElementById("buttonTiepTuc").disabled = false;
+        } else {
+          document.getElementById("buttonTiepTuc").disabled = true;
+        }
+      }
+    </script>
+  </body>
+</html>

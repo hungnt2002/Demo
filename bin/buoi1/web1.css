@@ -1,0 +1,44 @@
+.myTable {
+    color: white;
+    text-align: center;
+    background-color: rgb(255, 145, 0);
+    width: 100%;
+    font-size: 22;
+
+}
+
+.myTable td {
+    background-color: #183861;
+}
+
+.mainTable {
+    width: 100%;
+    background-color: rgb(255, 145, 0);
+    color: #11458D;
+    text-align: center;
+    font-size: 28;
+    font-weight: bolder;
+}
+
+ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}

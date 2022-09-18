@@ -1,0 +1,41 @@
+.mainDivClass {
+    background: #006699;
+    border: 1px solid red;
+    margin-top: 20px;
+    padding: 10px 20px 50px 10px;
+    height: 500px;
+    width: 1024px;
+    margin: auto;
+}
+
+.divHeadClass {
+    background: #999;
+}
+
+.divMenuClass {
+    background: #660066;
+}
+
+.divNavClass {
+    background: #FFCC33;
+    width: 30%;
+    float: left;
+
+}
+
+.divMainClass {
+    background: #3366CC;
+    width: 70%;
+    float: left;
+
+}
+
+.divFooterClass {
+    background: #9966CC;
+}
+
+.nav_main {}
+
+.container {
+    background-color: aqua;
+}
